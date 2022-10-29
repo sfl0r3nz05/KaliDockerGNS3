@@ -1,4 +1,4 @@
-# kalidocker
+# Kali Docker for GNS3
 
 Based on the latest Kali docker (https://www.kali.org/news/official-kali-linux-docker-images/). 
 
