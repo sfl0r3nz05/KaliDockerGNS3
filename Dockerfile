@@ -27,7 +27,7 @@ RUN set -x \
     && apt -y install --no-install-recommends metasploit-framework nmap hydra \
     && apt -y install --no-install-recommends sqlmap telnet openssh-client dnsutils \
     && apt -y install --no-install-recommends yersinia ettercap-text-only cisco-global-exploiter \
-    && apt -y install --no-install-recommends cisco-auditing-tool snmp dsniff dnschef fping hping3 tshark python3-scapy \
+    && apt -y install --no-install-recommends cisco-auditing-tool sslscan snmp nano dsniff dnschef fping hping3 tshark python3-scapy \
     && apt -y install --no-install-recommends net-tools iputils-ping iproute2 ipv6-toolkit thc-ipv6 \
     && apt -y install --no-install-recommends tcpdump \
     && rm -rf /var/lib/apt/lists/* \
